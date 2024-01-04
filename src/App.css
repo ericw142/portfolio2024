@@ -1,3 +1,5 @@
+/* Header Style Rules */
+
 #brand-header {
     margin: 10%;
     display: flex;
@@ -26,6 +28,8 @@
     margin-top: 20px;
 }
 
+/* Font Style Rules */
+
 .font-32 {
     font-size: 32px;
 }
@@ -37,6 +41,12 @@
 .font-16 {
     font-size: 16px;
 }
+
+.font-bold {
+    font-weight: 600;
+}
+
+/* Body Style Rules */
 
 .content-section {
     margin: 15% 10%;
