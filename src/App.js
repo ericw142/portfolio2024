@@ -5,9 +5,9 @@ import { Portfolio } from './components/Portfolio';
 function App() {
   return (
     <div className="App">
-      <div>
-      <BrandHeader />
-      <Portfolio />
+      <div id="brand-wrapper">
+          <BrandHeader />
+          <Portfolio />
       </div>
     </div>
   );
