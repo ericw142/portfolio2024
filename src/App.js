@@ -6,8 +6,14 @@ function App() {
   return (
     <div className="App">
       <div id="brand-wrapper">
-          <BrandHeader />
-          <Portfolio />
+          <div className="padding">
+            <div className="flex-row">
+              <Portfolio />
+              <div className="flex-col">
+                  <BrandHeader />
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   );
