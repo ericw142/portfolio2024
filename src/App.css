@@ -72,7 +72,8 @@ a {
 #brand-header {
     position: relative;
     z-index: 2;
-    margin: 30vh 2%;
+    margin: 30vh 5%;
+    padding-right: 10vh;
     display: flex;
     flex-direction: row;
 }
@@ -92,6 +93,10 @@ a {
 
 .brand-name > p:first-of-type {
     margin-top: 5px;
+}
+
+#about-section {
+    width: 70%;
 }
 
 /* Font Style Rules */
