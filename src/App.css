@@ -63,7 +63,7 @@ a {
     width: 100%;
     background: var(--theme-lightblue);
     position: relative;
-    top: -75%;
+    top: -72%;
     right: 5%;
     z-index: 1;
     border-radius: 5px;
@@ -129,4 +129,8 @@ a {
 .flex-col {
     display: flex;
     flex-direction: column;
+}
+
+.linked-in {
+    margin-left: 85%;
 }
