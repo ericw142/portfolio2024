@@ -139,3 +139,29 @@ a {
 .linked-in {
     margin-left: 85%;
 }
+
+@media only screen and (max-width: 750px) {
+    #brand {
+        padding-top: 30px;
+        height: 200px;
+    }
+    #brand-header {
+        position: relative;
+        margin: 0 5%;
+        padding-right: 10vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #brand-splash {
+        display: none;
+    }
+
+    #about-section {
+        margin-left: 4vh;
+    }
+
+    #project-links {
+        margin-left: 4vh;
+    }
+}
