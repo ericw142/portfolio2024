@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { BrandHeader } from './components/BrandHeader';
 import { Portfolio } from './components/Portfolio';
 import { About } from './components/About';
+import { CanvasAnimation } from './components/CanvasAnimation';
 
 function App() {
   const [isMobile, setIsMobile] = useState(false)
@@ -25,6 +26,7 @@ function App() {
 
   return (
     <div className="App">
+      <CanvasAnimation />
       {isMobile ? (
         <div id="brand-wrapper">
           <div className="flex-col">
