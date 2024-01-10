@@ -152,40 +152,6 @@ a {
     margin-left: 85%;
 }
 
-@media only screen and (max-width: 750px) {
-    body {
-        overflow-y: auto;
-    }
-    #brand {
-        padding-top: 30px;
-        height: 140px;
-    }
-    .mobile-view {
-        height: 200vh;
-    }
-    #brand-header {
-        position: relative;
-        margin: 0 5%;
-        top: 0;
-        padding-right: 10vh;
-        display: flex;
-        flex-direction: row;
-    }
-
-    #brand-splash {
-        display: none;
-    }
-
-    #about-section {
-        margin-left: 4vh;
-        width: 90%;
-    }
-
-    #project-links {
-        margin-left: 4vh;
-    }
-}
-
 /* Animations */
 
 .canvas {
@@ -394,4 +360,44 @@ a {
 .pyramid-bar:nth-child(11) {
     width: 100%;
     opacity: 0.05;
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        overflow-y: auto;
+    }
+    #brand {
+        padding-top: 30px;
+        height: 140px;
+    }
+    .mobile-view {
+        height: 200vh;
+    }
+    #brand-header {
+        position: relative;
+        margin: 0 5%;
+        top: 0;
+        padding-right: 10vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #brand-splash {
+        display: none;
+    }
+
+    #about-section {
+        margin-left: 4vh;
+        width: 90%;
+    }
+
+    #project-links {
+        margin-top: 20vh;
+        margin-right: 2vh;
+        text-align: right;
+    }
+
+    .canvas {
+        top: 40%;
+    }
 }
