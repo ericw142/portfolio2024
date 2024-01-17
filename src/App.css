@@ -359,13 +359,16 @@ a {
     body {
         overflow-y: auto;
     }
+
     #brand {
         padding-top: 30px;
         height: 140px;
     }
+
     .mobile-view {
         height: 200vh;
     }
+
     #brand-header {
         position: relative;
         margin: 0 5%;
@@ -375,19 +378,24 @@ a {
         flex-direction: row;
     }
 
-    #brand-splash {
-        display: none;
+    .brand-name > .font-32 {
+        font-size: 26px!important;
     }
 
     #about-section {
+        margin-top: 40px;
         margin-left: 4vh;
         width: 90%;
     }
 
     #project-links {
-        margin-top: 20vh;
+        margin-top: 22vh;
         margin-right: 2vh;
         text-align: right;
+    }
+
+    .project-link {
+        margin-left: auto;
     }
 
     .canvas {
