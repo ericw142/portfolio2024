@@ -28,7 +28,7 @@ function App() {
         <div className="App">
             <CanvasAnimation />
             {isMobile ? (
-                <div id="brand-wrapper">
+                <div id="page-wrapper">
                 <div className="flex-col">
                     <BrandHeader />
                     <About />
@@ -36,7 +36,7 @@ function App() {
                 </div>
                 </div>
             ) : (
-                <div id="brand-wrapper">
+                <div id="page-wrapper">
                     <div className="padding">
                     <div className="flex-row">
                         <div className="flex-col">

@@ -15,7 +15,6 @@ export const BrandHeader = () => {
                     <p className="font-16">Full-Stack Web Developer</p>
                 </div>
             </div>
-            <div id="brand-splash"></div>
         </div>
     )
 }
