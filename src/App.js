@@ -4,6 +4,7 @@ import { BrandHeader } from './components/BrandHeader';
 import { Portfolio } from './components/Portfolio';
 import { About } from './components/About';
 import { CanvasAnimation } from './components/CanvasAnimation';
+import { LinkedInButton } from './components/LinkedInButton';
 
 function App() {
     const [isMobile, setIsMobile] = useState(false);
@@ -28,12 +29,13 @@ function App() {
         <div className="App">
             <CanvasAnimation />
             {isMobile ? (
-                <div id="page-wrapper">
-                <div className="flex-col">
-                    <BrandHeader />
-                    <About />
-                    <Portfolio />
-                </div>
+                <div id="mobile-wrapper">
+                    <div className="flex-col">
+                        <BrandHeader showLinkedIn={false}/>
+                        <About />
+                        <Portfolio />
+                        <LinkedInButton />
+                    </div>
                 </div>
             ) : (
                 <div id="page-wrapper">
@@ -44,7 +46,7 @@ function App() {
                         <About />
                         </div>
                         <div className="flex-col">
-                            <BrandHeader />
+                            <BrandHeader showLinkedIn={true}/>
                         </div>
                     </div>
                     </div>
