@@ -356,6 +356,18 @@ a {
     opacity: 0.05;
 }
 
+@media only screen and (max-width: 870px) {
+    #about-section {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 719px) {
+    #about-section {
+        display: block;
+    }
+}
+
 @media only screen and (max-width: 750px) {
     body {
         overflow-y: hidden;
