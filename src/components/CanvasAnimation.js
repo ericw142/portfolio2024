@@ -2,41 +2,41 @@ import React from 'react';
 
 export const CanvasAnimation = () => {
     return (
-        <div class="canvas">
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
-            <div class="energy-bar"></div>
+        <div className="canvas">
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
+            <div className="energy-bar"></div>
 
-            <div class="pyramid">
-            <div class="pyramid-bar"></div>
-            <div class="pyramid-bar"></div>
-            <div class="pyramid-bar"></div>
-            <div class="pyramid-bar"></div>
-            <div class="pyramid-bar"></div>
-            <div class="pyramid-bar"></div>
-            <div class="pyramid-bar"></div>
-            <div class="pyramid-bar"></div>
-            <div class="pyramid-bar"></div>
-            <div class="pyramid-bar"></div>
-            <div class="pyramid-bar"></div>
+            <div className="pyramid">
+            <div className="pyramid-bar"></div>
+            <div className="pyramid-bar"></div>
+            <div className="pyramid-bar"></div>
+            <div className="pyramid-bar"></div>
+            <div className="pyramid-bar"></div>
+            <div className="pyramid-bar"></div>
+            <div className="pyramid-bar"></div>
+            <div className="pyramid-bar"></div>
+            <div className="pyramid-bar"></div>
+            <div className="pyramid-bar"></div>
+            <div className="pyramid-bar"></div>
             </div>
         </div>
     )
